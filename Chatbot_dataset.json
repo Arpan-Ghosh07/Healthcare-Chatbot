@@ -1,0 +1,186 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening", "Is anyone there?"],
+      "responses": [
+        "Hello! I'm HealthcareBot. How can I assist you today?",
+        "Hi there! I'm your healthcare assistant. What do you need help with?"
+      ]
+    },
+    {
+      "tag": "identity",
+      "patterns": ["Who are you", "What is your name", "Are you a bot"],
+      "responses": [
+        "I am HealthcareBot, your virtual healthcare assistant."
+      ]
+    },
+    {
+      "tag": "book_appointment",
+      "patterns": [
+        "I want to book appointment",
+        "Schedule doctor visit",
+        "Book appointment",
+        "I need to see a doctor"
+      ],
+      "responses": [
+        "Sure, I can help you book an appointment. Please provide preferred date and time."
+      ]
+    },
+    {
+      "tag": "schedule_appointment",
+      "patterns": [
+        "Schedule appointment",
+        "Set doctor appointment",
+        "Arrange consultation",
+        "Plan my doctor visit"
+      ],
+      "responses": [
+        "I can help you schedule an appointment. Please share the doctor specialization and your preferred date and time."
+      ]
+    },
+    {
+      "tag": "doctor_availability",
+      "patterns": [
+        "Doctor available?",
+        "Available doctors",
+        "Is doctor free today?",
+        "Check doctor availability"
+      ],
+      "responses": [
+        "Doctors are available between 9am and 6pm. Would you like to schedule a visit?"
+      ]
+    },
+    {
+      "tag": "symptoms_check",
+      "patterns": [
+        "I have fever",
+        "I feel sick",
+        "I have headache",
+        "Feeling unwell",
+        "I have cough"
+      ],
+      "responses": [
+        "I'm sorry to hear that. Please describe your symptoms in detail so I can guide you."
+      ]
+    },
+    {
+      "tag": "initial_diagnosis",
+      "patterns": [
+        "I have symptoms",
+        "What could this be?",
+        "Based on my symptoms",
+        "Initial diagnosis",
+        "Check my symptoms"
+      ],
+      "responses": [
+        "I can provide general guidance based on your symptoms, but this is not a medical diagnosis. Please describe your symptoms in detail."
+      ]
+    },
+    {
+      "tag": "medication_reminder",
+      "patterns": [
+        "Remind me to take medicine",
+        "Set medication reminder",
+        "Medicine reminder",
+        "Notify me for medicine time"
+      ],
+      "responses": [
+        "Sure, I can help you set a medication reminder. Please provide the medicine name and time."
+      ]
+    },
+    {
+      "tag": "medicine_info",
+      "patterns": [
+        "Medicine dosage",
+        "How to take medicine",
+        "Medication info",
+        "Side effects of medicine"
+      ],
+      "responses": [
+        "Please follow the prescription given by your doctor. For exact dosage consult a medical professional."
+      ]
+    },
+    {
+      "tag": "health_tips",
+      "patterns": [
+        "Give health tips",
+        "How to stay healthy",
+        "Wellness advice"
+      ],
+      "responses": [
+        "Stay hydrated, exercise regularly, eat balanced meals, and maintain proper sleep schedule."
+      ]
+    },
+    {
+      "tag": "insurance",
+      "patterns": [
+        "Insurance accepted?",
+        "Do you accept health insurance?",
+        "Payment options healthcare"
+      ],
+      "responses": [
+        "We accept most major health insurance providers. Please check with reception for details."
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "Contact number",
+        "Helpdesk",
+        "Customer care"
+      ],
+      "responses": [
+        "You can contact us at support@healthbot.com or call 9999999999."
+      ]
+    },
+    {
+      "tag": "address",
+      "patterns": [
+        "Hospital location",
+        "Where are you located?",
+        "Address"
+      ],
+      "responses": [
+        "We are located at HealthCare Center, Salt Lake, Kolkata, West Bengal."
+      ]
+    },
+    {
+      "tag": "emergency",
+      "patterns": [
+        "Emergency help",
+        "Severe pain",
+        "Call ambulance",
+        "This is urgent"
+      ],
+      "responses": [
+        "If this is a medical emergency, please call local emergency services immediately."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye"
+      ],
+      "responses": [
+        "Take care! Stay healthy!",
+        "Goodbye! Wishing you good health."
+      ]
+    },
+    {
+      "tag": "general",
+      "patterns": [
+        "okay",
+        "thanks",
+        "cool",
+        "fine"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Let me know if you need anything else."
+      ]
+    }
+  ]
+}
